@@ -1,5 +1,7 @@
 <?php
 
+require 'admin.php';
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,4 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::view('/admin', 'admin.index');
+//Route::view('/admin/login', 'admin.auth.login');
